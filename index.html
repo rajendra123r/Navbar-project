@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>navbar</title>
+    <style>
+        *{  
+            margin: 0;
+            padding: 0;
+            text-decoration: none;
+            list-style-type: none;
+
+        }
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: large;
+            font-weight: 400;
+           
+            
+          
+        }
+        .main{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            
+        }
+        .list-item,ul,li{
+            display: inline-block;
+            justify-content: center;
+            align-items: center;
+        }
+        .item{
+            margin: 0 10px 0 10px ;
+        }
+        .list-item{
+            position: relative;
+            bottom: 20px;
+        }
+        .right{
+            margin:  0 20px 0 0;
+        }
+        button{
+            padding: 8px 18px;
+            border-radius: 10px;
+            border: 1px solid black;
+        }
+        .btn-2{
+            background-color: gold;
+            border: 1px solid white;
+            
+        }
+        .btn-1{
+            margin-right: 10px;
+            
+        }
+        input{
+            margin-right: 10px;
+            padding: 8px 20px;
+            border: 1px solid black;
+            border-radius: 10px;
+        }
+        #item-1{
+            color: rgb(241, 207, 11);
+            font-weight: 800;
+        }
+      
+    </style>
+</head>
+<body>
+    <header class="main">
+        <div class="left">
+            <img src="/All navbar/Screenshot_2024-07-14_141416-removebg-preview.png" alt="">
+            <div class="list-item">
+            <ul class="list">
+                <li class="item" id="item-1">Home</li>
+                <li class="item">Features</li>
+                <li class="item">Pricing</li>
+                <li class="item">FAQs</li>
+                <li class="item">About</li>
+            </ul>
+        </div>
+        </div>
+        <div class="right">
+            <input type="text">
+            <ul class="list">
+                 <li  class="item"><a href="#"><button class="btn-1">Login</button></a></li>
+                 <li class="item" ><a href="#"><button class="btn-2">Sign-up</button></a></li>
+        </ul>
+        </div>
+    </header>
+    
+</body>
+</html>
