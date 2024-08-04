@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navbar</title>
+   <style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: content-box;
+        text-decoration: none;
+        list-style-type: none;
+        background-color: rgb(164, 166, 168);
+    
+    }
+    .navbar{
+      
+        width: 100%;
+        
+
+    }
+    .navdiv{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    
+
+    }
+
+    .logo{
+        height: 3rem;
+        padding: 10px;
+        margin-bottom: 15px;
+        
+    }
+    .heading{
+        font-size: 30px;
+        font-weight: 100px;
+        padding: 0 0 10px 0;
+        display: inline-block;
+        position: relative;
+        bottom: 20px;
+        left: 20px;
+       
+    }
+    ul,li{
+        display: inline-block;
+        margin-right: 20px;
+        
+        
+
+    }
+    ul,li,a{
+
+        font-size: 20px;
+        color: blue;
+        
+    }
+button{
+    background-color: blue;
+    border: 2px solid black;
+    padding: 8px 20px;
+    border-radius: 10px;
+    color: white;
+    border: none;
+
+    
+}
+.navbar,.navdiv, div,.heading,ul,li,a{
+        background-color: white;
+     }
+   </style>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navdiv">
+
+            <div class="logo">
+            <img src="/Screenshot 2024-07-14 141416.png" alt="logo-image">
+            <h2 class="heading">Simple header</h2>
+            </div> 
+
+            <ul>
+                <li><a href="" class="class-1"><button>Home</button></a></li>
+                <li><a href="" class="class">Features</a></li>
+                <li><a href="" class="class">FAQs</a></li>
+                <li><a href="" class="class">About</a></li>
+            </ul>
+        </div>
+    </nav>
+</body>
+</html>
